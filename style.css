@@ -54,3 +54,36 @@ h1, nav, #copyright {
 nav a {
     text-decoration: none;
 }
+
+body, h1 {
+    margin: 0;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+#categories {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#categories > section img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+#categories > section {
+    margin-bottom: 20px;
+}
+
+#heroimg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
