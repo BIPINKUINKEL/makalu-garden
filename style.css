@@ -1,1 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+h1, nav, footer {
+    font-family: 'Vollkorn', serif;
+}
+
+body, h2, h3 {
+    font-family: 'Vollkorn', 'Gabriola', sans-serif;
+}
+
+h1{
+    font-size: 3em;
+    line-height: 400%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    font-size: smaller;
+}
+
+#copyright {
+    font-family: serif;
+    font-style: italic;
+}
+
+header, footer {
+    background-color: #092399;
+    color: #eee;
+}
+
+h2, nav > a {
+    color: #092399;
+}
+
+footer nav > a {
+    color: #eee;
+}
+
+h2, h3, nav > a {
+    text-transform: uppercase;
+}
+
+h1, nav, #copyright {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
