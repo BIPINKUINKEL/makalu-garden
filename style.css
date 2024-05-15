@@ -11,6 +11,9 @@ body, h2, h3 {
 h1{
     font-size: 3em;
     line-height: 400%;
+    font-weight: 500;
+    background-color: #092399;opacity: 0.4;
+    text-shadow: 2px 2px 10px white;
 }
 
 h2 {
@@ -23,6 +26,11 @@ dt {
 
 footer {
     font-size: smaller;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
 }
 
 #copyright {
@@ -41,10 +49,14 @@ h2, nav > a {
 
 footer nav > a {
     color: #eee;
+    display: block; 
+    padding: zero;
+    text-align: left;
 }
 
 h2, h3, nav > a {
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 h1, nav, #copyright {
@@ -53,6 +65,11 @@ h1, nav, #copyright {
 
 nav a {
     text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body, h1 {
@@ -81,9 +98,34 @@ body, h1 {
     margin-bottom: 20px;
 }
 
+#categories > section h3 {
+    font-weight: bold;
+}
+
 #heroimg {
     width: 100%;
     height: 300px;
     object-fit: cover;
     object-position: center;
+}
+
+header {
+    background-image: url(./imgs/hand-grips-a-gardening-tool-to-cut-back-a-plant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+footer > div {
+    display: inline-block;
+    width: 33%;
+}
+
+ul {
+    padding: zero;
+    list-style: none;
 }
